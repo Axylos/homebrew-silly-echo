@@ -13,6 +13,11 @@ class SillyEcho < Formula
     man1.install "man/sillyecho.1"
   end
 
+  bottle do
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "cdffa6091a6dc944d00a557ed990cfad18e3b71b9f6e456e614853dd3abaf561"
+  end
+
+
   test do
     system "true"
   end
