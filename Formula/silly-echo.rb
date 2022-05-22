@@ -14,7 +14,8 @@ class SillyEcho < Formula
   end
 
   bottle do
-    sha256 cellar: :any_skip_relocation, x86_64_linux: "cdffa6091a6dc944d00a557ed990cfad18e3b71b9f6e456e614853dd3abaf561"
+    root_url "https://github.com/Axylos/silly/releases/download/"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "f5a3f2f5ce0b7254c2fae21f1b3f107853938c2a10192ca16e9e21f538e9c74d"
   end
 
 
